@@ -1,0 +1,71 @@
+@media screen and (max-width: 576px) {
+    nav{
+        flex-direction: column;
+    }
+
+    .banner-sec {
+        flex-direction: column-reverse;
+    }
+
+    .sec-bn-image img {
+        width: 100%;
+    }
+
+    .sec-bn-content {
+        text-align: center;
+        width: 90%;
+    }
+    nav ul li{
+        margin-right: 5px ;
+        border-right: 1px solid gray;
+    }
+    nav ul li a{
+        margin-right: 5px;
+    }
+
+    .sec-bn-content .sec-bn-content-h1 {
+        text-align: center;
+        font-family: Poppins;
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .card{
+        grid-template-columns: 100%;
+    }
+    .btn-1-de{
+        width: 330px;
+        justify-content: end;
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width:960px){
+    nav{
+        flex-direction: column;
+    }
+
+    .banner-sec {
+        flex-direction: column-reverse;
+    }
+
+    .sec-bn-content {
+        text-align: center;
+    }
+
+    
+    nav ul li{
+        
+        border-right: 1px solid gray;
+    }
+    nav ul li a{
+        margin-right: 15px;
+    }
+
+    .card{
+        grid-template-columns: 100%;
+    }
+    .btn-1-de{
+        justify-content: center;
+    }
+}
+   
